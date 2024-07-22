@@ -21,7 +21,9 @@ class ftoc extends temperature
 class ctof extends temperature
 {
 	double t;
-	void changetemp()
+	void changetemp()"""
+			
+			"""
 	{
 		t=(temp*9/5)+32;
 		System.out.println("the temperature in fahrenheit is:"+t);
